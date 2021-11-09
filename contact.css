@@ -1,0 +1,370 @@
+body{
+    display: block;
+    min-width: 100%;
+    background: floralwhite;
+}
+#header{
+    display:block;
+    background: darkcyan;
+    height: 150px;
+    width: 100%;
+}
+.logo{
+float: left;
+padding: 24px 20px 2px 20px;
+margin: 50px 0 0 25px;
+display: inline-block;
+background: darkblue;
+border-radius: 4px;
+height: 100px;
+width: 300px;
+}
+.a{
+display: inline-block;
+font-family: 'arimo-bold';
+font-size: 60px;
+padding-left: 50px;
+padding-top: 10px;
+text-decoration: none;
+color:white;
+
+}
+.navbar{
+    display: block;
+    background: darkcyan;
+    height: 154px;
+    min-width: 700px;
+}
+ul{
+    display: inline-block;
+    list-style: none;
+    float: right;
+    width: 500px;
+    margin: 0 50px 0 0;
+    padding-left:200px;
+    padding-top: 75px;
+}
+ul li{
+    background: darkblue;
+    display: inline;
+    font-size: 20px;
+    margin: 15px;
+}
+.mainsection{
+    display: block;
+    height:250px;
+    padding: 100px 200px 0 200px;
+
+}
+h1{
+    padding-left: 400px;
+}
+p{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: auto;
+}
+.footer{
+    display:inline-block;
+    background:darkcyan;
+    margin-top: 130px;
+    height: 150px;
+    min-width: 100%;
+    
+
+}
+.copyright{
+    position: relative;
+    top: 68px;
+    left: 30%;
+}
+.footer p{
+    position: inline-block;
+    padding-left: 370px;
+    padding-bottom: 60px;
+    height: 50px;
+    width: 300px;
+
+}
+.navigation{
+    display: inline-block;
+    background: #519194;
+    float: right;
+    position: relative;
+    bottom: 120px;
+    right: 50px;
+    width: 120px;  
+    
+}
+.navigation a{
+    position: flex;
+    top: 13px;
+    left: 17px;
+
+}
+@media (max-width: 900px){
+    body{
+        display: block;
+        min-width: 100%;
+        background: url(pexels-suzy-hazelwood-7026427.jpeg);
+    }
+    #header{
+        display: flex;
+        background: darkcyan;
+        height: 154px;
+        min-width: 100%;
+    }
+    .logo{
+        float: left;
+        margin-top: 30px;
+        display: flex;
+        background: darkblue;
+        height: 90px;
+        width: 150px;
+    .a{
+    display: inline-block;
+    font-family: 'arimo-bold';
+    font-size: 60px;
+    padding-left: 50px;
+    padding-top: 10px;
+    text-decoration: none;
+    color:white;
+    
+    }
+    .navbar{
+        display: block;
+        background: darkcyan;
+        height: 154px;
+        min-width: 700px;
+    }
+    ul{
+        display: inline-block;
+        list-style: none;
+        float: right;
+        width: 500px;
+        margin: 0 50px 0 0;
+        padding-left:200px;
+        padding-top: 75px;
+    }
+    ul li{
+        background: darkblue;
+        display: inline;
+        font-size: 20px;
+        margin: 15px;
+    }
+    .mainsection{
+        display: block;
+        height:250px;
+        padding: 100px 200px 0 200px;
+    
+    }
+    h1{
+        padding-left: 400px;
+    }
+    p{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: auto;
+    }
+    .footer{
+        display:inline-block;
+        background:darkcyan;
+        margin-top: 130px;
+        height: 150px;
+        min-width: 100%;
+        
+    
+    }
+    .copyright{
+        position: relative;
+        top: 68px;
+        left: 30%;
+    }
+    .footer p{
+        position: inline-block;
+        padding-left: 370px;
+        padding-bottom: 60px;
+        height: 50px;
+        width: 300px;
+    
+    }
+    .navigation{
+        display: inline-block;
+        background: #519194;
+        float: right;
+        position: relative;
+        bottom: 120px;
+        right: 50px;
+        width: 120px;  
+        
+    }
+    .navigation a{
+        position: flex;
+        top: 13px;
+        left: 17px;
+    
+    }
+    }
+    .a{
+        position:relative;
+        right: 40px;
+        color: lightcoral;
+        font-family: 'arimo-bold';
+        font-size: 40px;
+        text-decoration: none;
+    }
+    ul{
+        display: inline-block;
+        list-style: none;
+        width: 400px;
+        margin: 0 50px 0 0;
+        padding-left:10px;
+    
+    }
+    ul li{
+        background: darkblue;
+        display: inline;
+        font-size: 15px;
+        margin: 0px;
+        color: white;   
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .mainsection{
+        display: block;
+        height:400px;
+        padding: 100px 200px 0 200px;
+    
+    }
+    h1{
+        padding-left: 50px;
+        margin: none;
+    }
+    p{
+       padding-bottom: 20px;
+       length: 100px;
+        
+    }
+    h2{
+        margin-top: 30px;
+    }
+
+    .footer{
+        background:darkcyan;
+        height: 150px;
+        width: 900px;
+        margin-top:75px;
+    }
+    .copyright{
+        position: relative;
+        top: 60px;
+        left: 35%;
+    }
+    .footer p{
+        position: relative;
+        right: 70%;
+    }
+    .navigation{
+        position: relative;
+        right: 15%;
+        bottom:10%;
+        background: #519194;
+        height: 50px;
+        width: 150px;
+        margin-left: 950px;
+    }
+    .navigation a{
+        position: relative;
+        top: 13px;
+        left: 17px;
+    }
+}
+@media (max-width: 640px){
+    body{
+        display: block;
+        min-width: 100%;
+        background:rgb(211, 95, 53) ;
+    }
+    #header{
+        display:block;
+        background: darkcyan;
+        height: 150px;
+        width: 600px;
+    }
+    .navbar{
+    display: flex;
+    background: darkcyan;
+    height: 154px;
+    min-width: 100%;
+    width: 600px;
+    }
+    .logo{
+    float: left;
+    margin-top: 30px;
+    display: flex;
+    background: darkblue;
+    height: 90px;
+    width: 150px;
+    }
+    .a{
+    position:relative;
+    right: 40px;
+    color: lightcoral;
+    font-family: 'arimo-bold';
+    font-size: 40px;
+    text-decoration: none;
+    }
+    ul{
+    display: inline-block;
+    list-style: none;
+    width: 400px;
+    margin: 0 50px 0 0;
+    padding-left:10px;
+
+    }
+    ul li{
+    background: darkblue;
+    display: inline;
+    font-size: 15px;
+    margin: 0px;
+    color: white;   
+    }
+    a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    }
+    .footer{
+        display: block;
+        background:darkcyan;
+        height: 150px;
+        width: 600px;
+        margin-top:75px;
+        }
+        .copyright{
+        position: relative;
+        top: 60px;
+        left: 10%;
+        }
+        .footer p{
+        position: relative;
+        top:21px;
+        left: 14%;
+        }
+        .navigation{
+        position: relative;
+        bottom: 20%;
+        right: 90%;
+        background: #519194;
+        height: 50px;
+        width: 150px;
+        }
+        .navigation a{
+        position: relative;
+        top: 13px;
+        left: 17px;
+        }
+}

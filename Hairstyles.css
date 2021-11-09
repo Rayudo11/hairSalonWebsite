@@ -1,0 +1,304 @@
+body{
+    min-height: 100%;
+    width: 100%;
+    display: grid;
+    background:#ededed;
+
+}
+#header{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+   margin: 0;
+   height: 200px;
+    
+}
+.navbar{
+    display: block;
+    background: darkcyan;
+    height: 154px;
+    min-width: 700px;
+}
+.logo{
+    float: left;
+    padding: 24px 20px 2px 20px;
+    margin: 50px 0 0 25px;
+    display: inline-block;
+    background: darkblue;
+    border-radius: 4px;
+    height: 100px;
+    width: 300px;
+}
+.a{
+    display: inline-block;
+    color: white;
+    font-family: 'arimo-bold';
+    font-size: 60px;
+    padding-left: 50px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+ul{
+    display: inline-block;
+    list-style: none;
+    float: right;
+    width: 500px;
+    margin: 0 50px 0 0;
+    padding-left:200px;
+    padding-top: 75px;
+    
+}
+ul li{
+    background: darkblue;
+    display: inline;
+    font-size: 20px;
+    margin: 15px;
+    color: white;   
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+h1{
+    display: block;
+    margin: none;
+    padding-left: 43%;
+}
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 50px;
+}
+.footer{
+    display: block;
+    background:darkcyan;
+    height: 150px;
+    width: 100%;
+    margin-top:75px;
+}
+.copyright{
+    position: relative;
+    top: 60px;
+    left: 35%;
+}
+.footer p{
+    position: relative;
+    top:27px;
+    left: 36%;
+}
+.navigation{
+    position: relative;
+    background: #519194;
+    height: 50px;
+    width: 150px;
+    margin-left: 950px;
+}
+.navigation a{
+    position: relative;
+    top: 13px;
+    left: 17px;
+}
+@media (max-width: 900px){
+    body{
+        display: block;
+        min-width: 900px;
+        background:url(pexels-suzy-hazelwood-7026427.jpeg);
+    }
+    #header{
+        display:block;
+        background: darkcyan;
+        height: 150px;
+        width: 800px;
+    }
+    .navbar{
+    background: darkcyan;
+    height: 154px;
+    min-width: 100%;
+    width: 600px;
+    }
+    .logo{
+    float: left;
+    margin-top: 30px;
+    display: flex;
+    background: darkblue;
+    height: 90px;
+    width: 150px;
+    }
+    .a{
+        color: lightcoral;
+        font-family: 'arimo-bold';
+        text-decoration: none;
+    }
+    ul{
+    display: inline-block;
+    list-style: none;
+    width: 400px;
+    margin: 0 50px 0 0;
+    padding-left:10px;
+
+    }
+    ul li{
+    background: darkblue;
+    display: inline;
+    font-size: 15px;
+    margin: 0px;
+    color: white;   
+    }
+    .a{
+        display: inline-block;
+        color: coral;
+        font-family: 'arimo-bold';
+        font-size: 60px;
+        padding-left: 50px;
+        padding-top: 10px;
+        text-decoration: none;
+    }
+    h1{
+        display: block;
+        margin: none;
+        padding-left: 43%;
+    }
+    .images{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin-left: 50px;
+        margin-right: 50px;
+        gap: 50px;
+    }
+    .footer{
+    display: block;
+    background:darkcyan;        
+    height: 150px;
+    width: 800px;
+    margin-top:75px;
+    }
+    .copyright{
+        position: relative;
+        top: 60px;
+        left: 10%;
+    }
+    .footer p{
+        position: relative;
+        top:21px;
+        left: 15%;
+    }
+    .navigation{
+        position: relative;
+        bottom: 20%;
+        right: 70%;
+        background: #519194;
+        height: 50px;
+        width: 150px;
+    }
+    .navigation a{
+        position: relative;
+        top: 13px;
+        left: 17px;
+    }
+}
+@media (max-width: 640px){
+    body{
+        display: block;
+        min-width: 600px;
+        background:rgb(211, 95, 53) ;
+    }
+    #header{
+        display:block;
+        background: darkcyan;
+        height: 150px;
+        width: 600px;
+    }
+    .navbar{
+    display: flex;
+    background: darkcyan;
+    height: 154px;
+    min-width: 100%;
+    width: 600px;
+    }
+    .logo{
+    float: left;
+    margin-top: 30px;
+    display: flex;
+    background: darkblue;
+    height: 90px;
+    width: 150px;
+    }
+    .a{
+        length: 10px;
+        color: lightcoral;
+        font-family: 'arimo-bold';
+        font-size: 4px;
+        text-decoration: none;
+    }
+    ul{
+    display: inline-block;
+    list-style: none;
+    width: 400px;
+    margin: 0 50px 0 0;
+    padding-left:10px;
+
+    }
+    ul li{
+    background: darkblue;
+    display: inline;
+    font-size: 15px;
+    margin: 0px;
+    color: white;   
+    }
+    .a{
+        display: inline-block;
+        color: coral;
+        font-family: 'arimo-bold';
+        font-size: 60px;
+        padding-left: 50px;
+        padding-top: 10px;
+        text-decoration: none;
+    }
+    h1{
+        display: block;
+        margin: none;
+        padding-left: 43%;
+    }
+    .images{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-left: 50px;
+        margin-right: 50px;
+        gap: 50px;
+    }
+    .footer{
+    display: block;
+    background:darkcyan;        
+    height: 150px;
+    width: 600px;
+    margin-top:75px;
+    }
+    .copyright{
+        position: relative;
+        top: 60px;
+        left: 10%;
+    }
+    .footer p{
+        position: relative;
+        top:21px;
+        left: 14%;
+    }
+    .navigation{
+        position: relative;
+        bottom: 20%;
+        right: 90%;
+        background: #519194;
+        height: 50px;
+        width: 150px;
+    }
+    .navigation a{
+        position: relative;
+        top: 13px;
+        left: 17px;
+    }
+}

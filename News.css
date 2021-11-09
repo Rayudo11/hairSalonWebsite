@@ -1,0 +1,366 @@
+body{
+    min-height: 100%;
+    width: 100%;
+    display: grid;
+    background:#ededed;
+
+}
+#header{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+   margin: 0;
+   height: 200px;
+    
+}
+.navbar{
+    display: block;
+    background: darkcyan;
+    height: 154px;
+    min-width: 700px;
+}
+.logo{
+    float: left;
+    padding: 24px 20px 2px 20px;
+    margin: 50px 0 0 25px;
+    display: inline-block;
+    background: darkblue;
+    border-radius: 4px;
+    height: 100px;
+    width: 300px;
+}
+.a{
+    display: inline-block;
+    color: white;
+    font-family: 'arimo-bold';
+    font-size: 60px;
+    padding-left: 50px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.pages{
+    display: inline-block;
+    padding-bottom: 300px;
+    
+}
+ul{
+    display: inline-block;
+    list-style: none;
+    float: right;
+    width: 500px;
+    margin: 0 50px 0 0;
+    padding-left:200px;
+    padding-top: 75px;
+    
+}
+ul li{
+    background: darkblue;
+    display: inline;
+    font-size: 20px;
+    margin: 15px;
+    color: white;   
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.mainsection{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.left{
+    margin-left: 100px;
+    margin-right: 125px;
+}
+.left h2{
+    padding-left: 40%;
+}
+.left p{
+    padding-bottom: 30px;
+}
+.right{
+    margin-right: 50px;
+    background: white;
+    border: 5px solid darkcyan;
+    border-radius: 4px;
+    padding: 0 40px 20px 40px;
+}
+.right h2{
+    color: fuchsia;
+    text-decoration: underline;
+    padding-left: 30%;
+}
+.right img{
+    margin-left: 17%;
+    border: 5px solid black;
+    border-radius: 4px;
+}
+.footer{
+    background:darkcyan;
+    height: 150px;
+    width: 100%;
+    margin-top:75px;
+}
+.copyright{
+    position: relative;
+    top: 60px;
+    left: 35%;
+}
+.footer p{
+    position: relative;
+    top:21px;
+    left: 37%;
+}
+.navigation{
+    position: relative;
+    background: #519194;
+    height: 50px;
+    width: 150px;
+    margin-left: 950px;
+}
+.navigation a{
+    position: relative;
+    top: 13px;
+    left: 17px;
+}
+@media (max-width: 900px){
+    body{
+        min-height: 100%;
+        width: 100%;
+        display: grid;
+        background:url(pexels-suzy-hazelwood-7026427.jpeg);
+    
+    }   
+    .navbar{
+        display: flex;
+        background: darkcyan;
+        height: 154px;
+        min-width: 100%;
+    }
+    .logo{
+        float: left;
+        margin-top: 30px;
+        display: flex;
+        background: darkblue;
+        height: 90px;
+        width: 150px;
+    }
+    .a{
+        position:relative;
+        right: 40px;
+        color: lightcoral;
+        font-family: 'arimo-bold';
+        font-size: 40px;
+        text-decoration: none;
+    }
+    ul{
+        display: inline-block;
+        list-style: none;
+        width: 400px;
+        margin: 0 50px 0 0;
+        padding-left:10px;
+    
+    }
+    ul li{
+        background: darkblue;
+        display: inline;
+        font-size: 15px;
+        margin: 0px;
+        color: white;   
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .mainsection{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .left{
+        margin-left: 100px;
+        margin-right: 125px;
+    }
+    .left h2{
+        padding-left: 40%;
+        
+    }
+    .left p{
+        padding-bottom: 30px;
+        margin: auto;
+    }
+    .right{
+        margin-left: 25%;
+        width: 400px;
+        background: white;
+        border: 5px solid darkcyan;
+        border-radius: 4px;
+        padding: 0 40px 20px 40px;
+        
+    }
+    .right h2{
+        color: fuchsia;
+        text-decoration: underline;
+        padding-left: 30%;
+    }
+    .right p{
+        margin: auto;
+    }
+    .right img{
+        margin-left: 17%;
+        border: 5px solid black;
+        border-radius: 4px;
+    }
+    .footer{
+        background:darkcyan;
+        height: 150px;
+        width: 100%;
+        margin-top:75px;
+    }
+    .copyright{
+        position: relative;
+        top: 60px;
+        left: 35%;
+    }
+    .footer p{
+        position: relative;
+        top:21px;
+        left: 37%;
+    }
+    .navigation{
+        position: relative;
+        right: 15%;
+        bottom:10%;
+        background: #519194;
+        height: 50px;
+        width: 150px;
+        margin-left: 950px;
+    }
+    .navigation a{
+        position: relative;
+        top: 13px;
+        left: 17px;
+    }
+}
+@media (max-width: 640px){
+      body{
+        display: block;
+        min-width: 100%;
+        background:rgb(211, 95, 53) ;
+    }
+    #header{
+        display:block;
+        background: darkcyan;
+        height: 150px;
+        width: 600px;
+    }
+    .navbar{
+    display: flex;
+    background: darkcyan;
+    height: 154px;
+    min-width: 100%;
+    width: 600px;
+    }
+    .logo{
+    float: left;
+    margin-top: 30px;
+    display: flex;
+    background: darkblue;
+    height: 90px;
+    width: 150px;
+    }
+    .a{
+    position:relative;
+    right: 40px;
+    color: lightcoral;
+    font-family: 'arimo-bold';
+    font-size: 40px;
+    text-decoration: none;
+    }
+    ul{
+    display: inline-block;
+    list-style: none;
+    width: 400px;
+    margin: 0 50px 0 0;
+    padding-left:10px;
+
+    }
+    ul li{
+    background: darkblue;
+    display: inline;
+    font-size: 15px;
+    margin: 0px;
+    color: white;   
+    }
+    a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    }
+    .mainsection{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 1400px;
+    }
+    .left{
+margin-left: 200px;
+    }
+    .left p{
+    padding-bottom: 30px;
+    }
+    .right{
+    margin-left: 10%;
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 5px solid darkcyan;
+    border-radius: 4px;
+    padding: 0 40px 20px 40px;
+    }
+    .right h2{
+    color: fuchsia;
+    text-decoration: underline;
+    padding-left: 30%;
+    }
+    .right p{
+    margin: auto;
+    }
+    .right img{
+    margin-top: 15%;
+    margin-left: 17%;
+    border: 5px solid black;
+    border-radius: 4px;
+    }
+    .footer{
+    display: block;
+    background:darkcyan;
+    height: 150px;
+    width: 600px;
+    margin-top:75px;
+    }
+    .copyright{
+    position: relative;
+    top: 60px;
+    left: 10%;
+    }
+    .footer p{
+    position: relative;
+    top:21px;
+    left: 14%;
+    }
+    .navigation{
+    position: relative;
+    bottom: 20%;
+    right: 90%;
+    background: #519194;
+    height: 50px;
+    width: 150px;
+    }
+    .navigation a{
+    position: relative;
+    top: 13px;
+    left: 17px;
+    }
+}
